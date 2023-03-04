@@ -1,7 +1,7 @@
 
 console.log('234567')
 
-import Select from './select.js';
+import {Select} from './select.js';
 
 
 const select = new Select('#select', {

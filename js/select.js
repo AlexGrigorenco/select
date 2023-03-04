@@ -34,7 +34,7 @@ const getTemplate = (data = [], placeholder, selectedId) => {
 }
 
 
-class Select {
+export class Select {
     constructor(selector, options){
         this.$el = document.querySelector(selector)
         this.options = options
@@ -107,6 +107,3 @@ class Select {
         this.$el.innerHTML = ''
     }
 }
-
-
-export default Select;
